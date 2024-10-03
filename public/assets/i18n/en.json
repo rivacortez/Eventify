@@ -29,5 +29,9 @@
   "home": {
     "title": "Home",
     "welcome": "Welcome to Eventify"
+  },
+  "eventSummary": {
+    "registeredAttendees": "Registered Attendees",
+    "attendancePercentage": "Attendance Percentage"
   }
 }

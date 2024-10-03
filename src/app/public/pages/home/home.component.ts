@@ -1,4 +1,3 @@
-
 import { Component, OnInit } from '@angular/core';
 import { EventService } from '../../../registration/service/event.service';
 import { EventSummaryComponent } from '../../../registration/components/event-summary/event-summary.component';

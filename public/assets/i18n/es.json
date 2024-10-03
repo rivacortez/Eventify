@@ -29,5 +29,10 @@
   "home": {
     "title": "Inicio",
     "welcome": "Bienvenido a Eventify"
+  },
+
+  "eventSummary": {
+    "registeredAttendees": "Asistentes Registrados",
+    "attendancePercentage": "Porcentaje de Asistencia"
   }
 }

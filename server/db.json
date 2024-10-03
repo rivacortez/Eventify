@@ -23,10 +23,10 @@
     {
       "id": 1,
       "firstName": "John",
-        "lastName": "Doe",
+      "lastName": "Doe",
       "eventId": 1,
       "ticketIdentifier": "TICKET-1",
-      "checkedInAt": null
+      "checkedInAt": "2024-10-03T17:00:45.254Z"
     },
     {
       "id": 2,
@@ -42,7 +42,7 @@
       "lastName": "Smith",
       "eventId": 2,
       "ticketIdentifier": "TICKET-3",
-      "checkedInAt": null
+      "checkedInAt": "2024-10-03T17:00:50.359Z"
     },
     {
       "id": 4,
@@ -50,7 +50,7 @@
       "lastName": "Smith",
       "eventId": 2,
       "ticketIdentifier": "TICKET-4",
-      "checkedInAt": null
+      "checkedInAt": "2024-10-03T17:00:53.707Z"
     },
     {
       "id": 5,
@@ -66,7 +66,7 @@
       "lastName": "Brown",
       "eventId": 3,
       "ticketIdentifier": "TICKET-6",
-      "checkedInAt": null
+      "checkedInAt": "2024-10-03T17:01:01.151Z"
     },
     {
       "id": 7,
@@ -74,7 +74,7 @@
       "lastName": "Johnson",
       "eventId": 3,
       "ticketIdentifier": "TICKET-7",
-      "checkedInAt": null
+      "checkedInAt": "2024-10-03T17:01:03.408Z"
     },
     {
       "id": 8,
@@ -82,7 +82,7 @@
       "lastName": "Johnson",
       "eventId": 3,
       "ticketIdentifier": "TICKET-8",
-      "checkedInAt": null
+      "checkedInAt": "2024-10-03T17:01:07.602Z"
     },
     {
       "id": 9,
@@ -98,7 +98,7 @@
       "lastName": "Williams",
       "eventId": 1,
       "ticketIdentifier": "TICKET-10",
-      "checkedInAt": null
+      "checkedInAt": "2024-10-03T17:04:32.612Z"
     },
     {
       "id": 11,
@@ -106,7 +106,7 @@
       "lastName": "Brown",
       "eventId": 2,
       "ticketIdentifier": "TICKET-11",
-      "checkedInAt": null
+      "checkedInAt": "2024-10-03T17:04:29.778Z"
     },
     {
       "id": 12,
@@ -130,7 +130,7 @@
       "lastName": "Williams",
       "eventId": 2,
       "ticketIdentifier": "TICKET-14",
-      "checkedInAt": null
+      "checkedInAt": "2024-10-03T17:04:25.860Z"
     },
     {
       "id": 15,
@@ -146,7 +146,7 @@
       "lastName": "Johnson",
       "eventId": 1,
       "ticketIdentifier": "TICKET-16",
-      "checkedInAt": null
+      "checkedInAt": "2024-10-03T17:05:08.388Z"
     },
     {
       "id": 17,
@@ -154,7 +154,7 @@
       "lastName": "Williams",
       "eventId": 2,
       "ticketIdentifier": "TICKET-17",
-      "checkedInAt": null
+      "checkedInAt": "2024-10-03T17:05:19.454Z"
     },
     {
       "id": 18,
@@ -162,7 +162,7 @@
       "lastName": "Brown",
       "eventId": 1,
       "ticketIdentifier": "TICKET-18",
-      "checkedInAt": null
+      "checkedInAt": "2024-10-03T17:03:09.970Z"
     },
     {
       "id": 19,

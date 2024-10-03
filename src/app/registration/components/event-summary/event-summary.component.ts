@@ -1,12 +1,5 @@
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
-import {
-  MatCard,
-  MatCardContent,
-  MatCardFooter,
-  MatCardHeader,
-  MatCardSubtitle,
-  MatCardTitle
-} from '@angular/material/card';
+import { MatCard, MatCardHeader, MatCardContent, MatCardFooter, MatCardSubtitle, MatCardTitle } from '@angular/material/card';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
