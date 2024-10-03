@@ -1,1 +1,9 @@
-<p>home works!</p>
+
+<h1>{{ 'home.title' | translate }}</h1>
+<p>{{ 'home.welcome' | translate }}</p>
+<h2>{{ 'home.registeredEvents' | translate }}</h2>
+<div fxLayout="row" fxLayoutGap="16px" fxLayoutWrap>
+  <div *ngFor="let event of events" fxFlex="50%">
+    <app-event-summary [event]="event"></app-event-summary>
+  </div>
+</div>

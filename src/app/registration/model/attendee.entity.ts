@@ -1,4 +1,4 @@
-// src/app/registration/model/attendee.entity.ts
+
 export class Attendee {
   id: number;
   firstName: string;

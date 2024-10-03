@@ -1,0 +1,8 @@
+
+h1, h2 {
+  text-align: center;
+}
+
+div[fxLayout] {
+  margin: 20px;
+}
