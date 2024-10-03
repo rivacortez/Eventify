@@ -37,7 +37,7 @@ export class CheckInComponent {
       const attendee = attendees.find(a => a.ticketIdentifier === ticketIdentifier);
       if (attendee) {
         if (attendee.checkedInAt) {
-          this.resultMessage = 'checkIn.alreadyCheckedIn';
+          this.resultMessage = 'CheckIn.alreadyCheckedIn';
         } else {
           attendee.checkedInAt = new Date();
           this.attendeeService.update(attendee.id, attendee).subscribe(() => {
@@ -48,7 +48,7 @@ export class CheckInComponent {
           });
         }
       } else {
-        this.resultMessage = 'checkIn.invalidTicket';
+        this.resultMessage = 'CheckIn.invalidTicket';
       }
     });
   }

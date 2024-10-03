@@ -1,8 +1,19 @@
-<h1>{{ 'home.title' | translate }}</h1>
-<p>{{ 'home.welcome' | translate }}</p>
-<h2>{{ 'toolbar.checkIn' | translate }}</h2>
-<div fxLayout="row" fxLayoutGap="16px" fxLayoutWrap>
-  <div *ngFor="let event of events" fxFlex="50%">
-    <app-event-summary [event]="event"></app-event-summary>
+<mat-toolbar color="primary" class="toolbar">
+  <span>Eventify</span>
+</mat-toolbar>
+
+<div class="home-container">
+  <h1>Home</h1>
+  <p>Welcome to Eventify</p>
+
+  <h2>Registered Events</h2>
+
+  <div class="grid-container">
+    <mat-grid-list cols="2" rowHeight="1:1" gutterSize="16px">
+      <mat-grid-tile *ngFor="let event of events" class="event-tile">
+        <app-event-summary [event]="event"></app-event-summary>
+      </mat-grid-tile>
+    </mat-grid-list>
   </div>
 </div>
+
