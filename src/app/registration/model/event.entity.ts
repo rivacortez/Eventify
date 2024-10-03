@@ -1,13 +1,14 @@
+// src/app/registration/model/event.entity.ts
 export class Event {
   id: number;
   name: string;
   description: string;
   scheduledAt: Date;
 
-  constructor(id: number, name: string, description: string, scheduledAt: Date) {
-    this.id = id;
-    this.name = name;
-    this.description = description;
-    this.scheduledAt = scheduledAt;
+  constructor(event: { id?: number, name?: string, description?: string, scheduledAt?: Date }) {
+    this.id = event.id || 0;
+    this.name = event.name || '';
+    this.description = event.description || '';
+    this.scheduledAt = event.scheduledAt || new Date();
   }
 }

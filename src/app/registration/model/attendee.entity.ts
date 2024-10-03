@@ -1,3 +1,4 @@
+// src/app/registration/model/attendee.entity.ts
 export class Attendee {
   id: number;
   firstName: string;
@@ -6,19 +7,12 @@ export class Attendee {
   ticketIdentifier: string;
   checkedInAt: Date | null;
 
-  constructor(
-    id: number,
-    firstName: string,
-    lastName: string,
-    eventId: number,
-    ticketIdentifier: string,
-    checkedInAt: Date | null
-  ) {
-    this.id = id;
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.eventId = eventId;
-    this.ticketIdentifier = ticketIdentifier;
-    this.checkedInAt = checkedInAt;
+  constructor(attendee: { id?: number, firstName?: string, lastName?: string, eventId?: number, ticketIdentifier?: string, checkedInAt?: Date | null }) {
+    this.id = attendee.id || 0;
+    this.firstName = attendee.firstName || '';
+    this.lastName = attendee.lastName || '';
+    this.eventId = attendee.eventId || 0;
+    this.ticketIdentifier = attendee.ticketIdentifier || '';
+    this.checkedInAt = attendee.checkedInAt || null;
   }
 }

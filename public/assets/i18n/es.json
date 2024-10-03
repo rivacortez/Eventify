@@ -1,0 +1,33 @@
+{
+  "footer": {
+    "phrase": "Bienvenido a Eventify"
+  },
+  "notfound": {
+    "notfoundTitle": "Página No Encontrada",
+    "backHome": "Ir a inicio"
+  },
+  "toolbar": {
+    "home": "Inicio",
+    "checkIn": "Eventos Registrados"
+  },
+  "CheckIn": {
+    "title": "Registro",
+    "eventCheckIn": "Registro de Evento",
+    "ticketValidation": "Validación de Ticket",
+    "ticketIdentifier": "Identificador de Ticket",
+    "checkInButton": "Registrar",
+    "invalidTicket": "Identificador de Ticket Inválido",
+    "alreadyCheckedIn": "Ya Registrado",
+    "errorOccurred": "Ocurrió un error durante la validación del ticket",
+    "eventId": "Id del Evento",
+    "eventName": "Nombre del Evento",
+    "eventDescription": "Descripción del Evento",
+    "attendeeFirstName": "Nombre del Asistente",
+    "attendeeLastName": "Apellido del Asistente",
+    "checkedInAt": "Registrado En"
+  },
+  "home": {
+    "title": "Inicio",
+    "welcome": "Bienvenido a Eventify"
+  }
+}
